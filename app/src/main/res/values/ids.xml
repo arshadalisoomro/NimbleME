@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="id_shortcut_console" type="id"/><!-- Code -->
+    <item name="id_shortcut_format_header_1" type="id"/><!-- H1 -->
+    <item name="id_shortcut_format_header_2" type="id"/><!-- H2 -->
+    <item name="id_shortcut_format_header_3" type="id"/><!-- H3 -->
+    <item name="id_shortcut_format_header_4" type="id"/><!-- H4 -->
+    <item name="id_shortcut_format_header_5" type="id"/><!-- H5 -->
+    <item name="id_shortcut_format_header_6" type="id"/><!-- H6 -->
+    <item name="id_shortcut_format_italic" type="id"/><!-- Italic -->
+    <item name="id_shortcut_format_bold" type="id"/><!-- Bold -->
+    <item name="id_shortcut_list_bulleted" type="id"/><!-- Bullets -->
+    <item name="id_shortcut_format_numbers" type="id"/><!-- Format Numbers  -->
+    <item name="id_shortcut_format_quote" type="id"/><!-- Format Quotes -->
+    <item name="id_shortcut_format_strikethrough" type="id"/><!-- Strike through -->
+    <item name="id_shortcut_grid" type="id"/><!-- Table Grid -->
+    <item name="id_shortcut_insert_link" type="id"/><!-- Link -->
+    <item name="id_shortcut_insert_photo" type="id"/><!-- Photo -->
+    <item name="id_shortcut_minus" type="id"/><!--  -->
+    <item name="id_shortcut_xml" type="id"/><!--  -->
+
+</resources>

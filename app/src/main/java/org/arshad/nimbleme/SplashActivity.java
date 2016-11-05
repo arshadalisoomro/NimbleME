@@ -15,14 +15,18 @@
  */
 package org.arshad.nimbleme;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.AccelerateDecelerateInterpolator;
-
+/**
+ * Created by Arshay on 9/30/2016.
+ */
 public class SplashActivity extends AppCompatActivity {
 
         @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -50,6 +54,15 @@ public class SplashActivity extends AppCompatActivity {
             findViewById(R.id.tv).animate().alpha(1).scaleY(1.2f).scaleX(1.2f).setDuration(2000L).setInterpolator(new AccelerateDecelerateInterpolator());
             findViewById(R.id.tv2).animate().alpha(1).scaleY(1.1f).scaleX(1.1f).setDuration(2000L).setInterpolator(new AccelerateDecelerateInterpolator());
             findViewById(R.id.tv3).animate().alpha(1).scaleY(1.1f).scaleX(1.1f).setDuration(2000L).setInterpolator(new AccelerateDecelerateInterpolator());
+
+            Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(SplashActivity.this, WritingActivity.class));
+                    finish();
+                }
+            },3210L);
 
         }
 
