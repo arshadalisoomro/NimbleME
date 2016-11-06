@@ -3,7 +3,7 @@ Nimble Markdown Editor App for Android
 
 ![Nimble ME! Poster](Nimble-ME!-Poster.png)
 
-This App is using 
+[This App](https://github.com/arshadalisoomro/NimbleME/releases) is using
 
 ```
 dependencies {
